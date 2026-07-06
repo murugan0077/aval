@@ -22,6 +22,24 @@ router.post('/', authenticate, async (req: Request, res: Response) => {
     const prof = store.findProfessionalById(professionalId as string);
     if (!prof) return res.status(404).json({ error: 'Professional not found' });
 
+    const scheduledDateInput = req.body.scheduledDate ? new Date(req.body.scheduledDate as string) : null;
+    const scheduledSlotInput = (req.body.scheduledSlot as string) || null;
+
+    if (scheduledDateInput) {
+      const existingBookings = store.findBookingsByProfessional(prof.id);
+      const isBooked = existingBookings.some((b: any) => {
+        if (['CANCELLED', 'COMPLETED'].includes(b.status)) return false;
+        if (!b.scheduledDate) return false;
+        const sameDate = new Date(b.scheduledDate).toDateString() === scheduledDateInput.toDateString();
+        const sameSlot = b.scheduledSlot === scheduledSlotInput;
+        return sameDate && sameSlot;
+      });
+
+      if (isBooked) {
+        return res.status(409).json({ error: 'The professional is already booked at this time. Please select another time slot.' });
+      }
+    }
+
     const isInstant = !!req.body.isInstant;
     const estimatedCost = Number(req.body.estimatedCost) || 0;
 
@@ -206,8 +224,25 @@ router.post('/:id/reschedule', authenticate, async (req: Request, res: Response)
       return res.status(400).json({ error: 'Cannot reschedule' });
     }
 
+    const scheduledDateInput = new Date(scheduledDate);
+    const scheduledSlotInput = (req.body.scheduledSlot as string) || null;
+
+    const existingBookings = store.findBookingsByProfessional(booking.professionalId);
+    const isBooked = existingBookings.some((b: any) => {
+      if (b.id === booking.id) return false;
+      if (['CANCELLED', 'COMPLETED'].includes(b.status)) return false;
+      if (!b.scheduledDate) return false;
+      const sameDate = new Date(b.scheduledDate).toDateString() === scheduledDateInput.toDateString();
+      const sameSlot = b.scheduledSlot === scheduledSlotInput;
+      return sameDate && sameSlot;
+    });
+
+    if (isBooked) {
+      return res.status(409).json({ error: 'The professional is already booked at this time. Please select another time slot.' });
+    }
+
     store.updateBooking(booking.id, {
-      scheduledDate: new Date(scheduledDate),
+      scheduledDate: scheduledDateInput,
       scheduledSlot: (req.body.scheduledSlot as string) || null,
       status: booking.status === 'CONFIRMED' ? 'CONFIRMED' : 'RESCHEDULED',
       rescheduleCount: (booking.rescheduleCount || 0) + 1,

@@ -39,7 +39,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const res = await api.login({ phone, password });
     
     if (loginRole && res.user.role !== loginRole) {
-      throw new Error(`This account is registered as a ${res.user.role.toLowerCase()}. Please select the correct role.`);
+      // throw new Error(`This account is registered as a ${res.user.role.toLowerCase()}. Please select the correct role.`);
+      throw new Error(`Please select the correct role`);
     }
 
     setToken(res.token);
