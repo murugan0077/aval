@@ -9,8 +9,9 @@ export default function Login() {
   const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [loginRole, setLoginRole] = useState<'CUSTOMER' | 'PROFESSIONAL'>('CUSTOMER');
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { login, professional } = useAuth();
   const navigate = useNavigate();
 
   const validate = () => {
@@ -28,9 +29,14 @@ export default function Login() {
     if (!validate()) return;
     setLoading(true);
     try {
-      await login(phone, password);
+      await login(phone, password, loginRole);
       toast.success('Welcome back!');
-      navigate('/');
+      
+      if (loginRole === 'PROFESSIONAL') {
+        navigate('/professional/dashboard');
+      } else {
+        navigate('/');
+      }
     } catch (err: any) {
       toast.error(err.message || 'Login failed');
     } finally {
@@ -52,6 +58,24 @@ export default function Login() {
         </div>
 
         <form onSubmit={handleSubmit} className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl shadow-brand-100/50 border border-white space-y-6" noValidate>
+          {/* Role Selection Toggle */}
+          <div className="flex p-1 bg-slate-100 rounded-xl mb-6">
+            <button
+              type="button"
+              onClick={() => setLoginRole('CUSTOMER')}
+              className={`flex-1 py-2.5 text-sm font-semibold rounded-lg transition-all ${loginRole === 'CUSTOMER' ? 'bg-white text-brand-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+            >
+              Customer
+            </button>
+            <button
+              type="button"
+              onClick={() => setLoginRole('PROFESSIONAL')}
+              className={`flex-1 py-2.5 text-sm font-semibold rounded-lg transition-all ${loginRole === 'PROFESSIONAL' ? 'bg-white text-brand-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+            >
+              Professional
+            </button>
+          </div>
+
           <div className="space-y-1.5">
             <label className="block text-sm font-semibold text-slate-700">
               Phone Number <span className="text-rose-500">*</span>

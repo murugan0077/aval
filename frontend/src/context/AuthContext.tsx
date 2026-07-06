@@ -6,7 +6,7 @@ interface AuthState {
   user: User | null;
   professional: any | null;
   loading: boolean;
-  login: (phone: string, password: string) => Promise<void>;
+  login: (phone: string, password: string, loginRole?: string) => Promise<void>;
   register: (name: string, phone: string, password: string, role?: string) => Promise<void>;
   logout: () => void;
   refreshProfile: () => Promise<void>;
@@ -35,8 +35,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const login = async (phone: string, password: string) => {
+  const login = async (phone: string, password: string, loginRole?: string) => {
     const res = await api.login({ phone, password });
+    
+    if (loginRole && res.user.role !== loginRole) {
+      throw new Error(`This account is registered as a ${res.user.role.toLowerCase()}. Please select the correct role.`);
+    }
+
     setToken(res.token);
     setUser(res.user);
     if (res.user.role === 'PROFESSIONAL') {
