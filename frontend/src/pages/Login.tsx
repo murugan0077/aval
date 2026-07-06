@@ -39,52 +39,61 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-b from-brand-50 to-white">
-      <div className="w-full max-w-sm">
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-brand-600">NearSkill</h1>
-          <p className="text-gray-500 mt-2">Find verified local professionals</p>
+    <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50/50 relative overflow-hidden">
+      {/* Decorative background elements */}
+      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-brand-400/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+      <div className="absolute top-[-10%] right-[-10%] w-96 h-96 bg-emerald-400/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+      <div className="absolute bottom-[-20%] left-[20%] w-96 h-96 bg-purple-400/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
+
+      <div className="w-full max-w-md relative z-10">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-400 tracking-tight">NearSkill</h1>
+          <p className="text-slate-500 mt-3 font-medium">Find verified local professionals</p>
         </div>
 
-        <form onSubmit={handleSubmit} className="card space-y-4" noValidate>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Phone Number <span className="text-red-500">*</span>
+        <form onSubmit={handleSubmit} className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl shadow-brand-100/50 border border-white space-y-6" noValidate>
+          <div className="space-y-1.5">
+            <label className="block text-sm font-semibold text-slate-700">
+              Phone Number <span className="text-rose-500">*</span>
             </label>
             <input
               type="tel"
               value={phone}
               onChange={(e) => { setPhone(e.target.value.replace(/\D/g, '').slice(0, 10)); setErrors((p) => ({ ...p, phone: '' })); }}
               onBlur={() => { if (phone && !PHONE_REGEX.test(phone)) setErrors((p) => ({ ...p, phone: 'Enter a valid 10-digit phone number' })); }}
-              className={`input-field ${errors.phone ? 'border-red-400 focus:ring-red-400' : ''}`}
+              className={`w-full p-4 rounded-xl border ${errors.phone ? 'border-rose-400 focus:ring-rose-200 focus:border-rose-500' : 'border-slate-200 focus:ring-brand-200 focus:border-brand-500'} bg-white/50 focus:bg-white transition-all outline-none font-medium`}
               placeholder="Enter your phone number"
               maxLength={10}
               inputMode="numeric"
             />
-            {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
+            {errors.phone && <p className="text-rose-500 text-xs font-medium mt-1">{errors.phone}</p>}
           </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Password <span className="text-red-500">*</span>
+          
+          <div className="space-y-1.5">
+            <label className="block text-sm font-semibold text-slate-700">
+              Password <span className="text-rose-500">*</span>
             </label>
             <input
               type="password"
               value={password}
               onChange={(e) => { setPassword(e.target.value); setErrors((p) => ({ ...p, password: '' })); }}
               onBlur={() => { if (password && password.length < 6) setErrors((p) => ({ ...p, password: 'Password must be at least 6 characters' })); }}
-              className={`input-field ${errors.password ? 'border-red-400 focus:ring-red-400' : ''}`}
+              className={`w-full p-4 rounded-xl border ${errors.password ? 'border-rose-400 focus:ring-rose-200 focus:border-rose-500' : 'border-slate-200 focus:ring-brand-200 focus:border-brand-500'} bg-white/50 focus:bg-white transition-all outline-none font-medium`}
               placeholder="Enter your password"
             />
-            {errors.password && <p className="text-red-500 text-xs mt-1">{errors.password}</p>}
+            {errors.password && <p className="text-rose-500 text-xs font-medium mt-1">{errors.password}</p>}
           </div>
-          <button type="submit" disabled={loading} className="btn-primary w-full">
+          
+          <button type="submit" disabled={loading} className="w-full py-4 rounded-xl font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-lg shadow-brand-200/50 transition-all active:scale-[0.98] mt-4 disabled:opacity-70 disabled:active:scale-100">
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
 
-          <p className="text-center text-sm text-gray-500">
-            Don't have an account?{' '}
-            <Link to="/register" className="text-brand-600 font-medium">Sign up</Link>
-          </p>
+          <div className="pt-6 border-t border-slate-100 mt-6 text-center">
+            <p className="text-sm text-slate-500">
+              Don't have an account?{' '}
+              <Link to="/register" className="text-brand-600 font-bold hover:text-brand-700 transition-colors">Sign up</Link>
+            </p>
+          </div>
         </form>
       </div>
     </div>
