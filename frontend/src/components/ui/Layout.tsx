@@ -44,7 +44,7 @@ export function Layout({ children, title, showBack, onBack }: LayoutProps) {
             </button>
           )}
           <Link to="/" className="text-xl font-bold text-brand-600">
-            NearSkill
+            Nearo
           </Link>
           {title && <span className="text-gray-400">/</span>}
           {title && <span className="text-sm text-gray-600 font-medium">{title}</span>}

@@ -53,7 +53,7 @@ export default function Login() {
 
       <div className="w-full max-w-md relative z-10">
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-400 tracking-tight">NearSkill</h1>
+          <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-400 tracking-tight">Nearo</h1>
           <p className="text-slate-500 mt-3 font-medium">Find verified local professionals</p>
         </div>
 

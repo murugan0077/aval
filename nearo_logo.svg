@@ -1,0 +1,73 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Nearo Logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Nearo brand logo with symbol and wordmark variations on light and dark backgrounds</desc>
+
+  <defs>
+    
+  </defs>
+
+  
+  <text x="60" y="38" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">On light (warm sand)</text>
+  <text x="400" y="38" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">On dark (midnight)</text>
+
+  
+  <rect x="40" y="52" width="280" height="160" rx="20" fill="#F7F3EC" style="fill:rgb(247, 243, 236);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  
+  <path d="M120 164 C120 164 92 138 92 118 C92 102.536 104.536 90 120 90 C135.464 90 148 102.536 148 118 C148 138 120 164 120 164 Z" fill="#0E4F4F" stroke="none" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <circle cx="120" cy="116" r="13" fill="#F7F3EC" style="fill:rgb(247, 243, 236);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <polyline points="113,116 118,122 128,110" fill="none" stroke="#C9A86A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(201, 168, 106);color:rgb(11, 11, 11);stroke-width:2.8px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text x="162" y="122" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:32px;font-weight:600;text-anchor:start;dominant-baseline:auto">nearo</text>
+  <text x="163" y="142" style="fill:rgb(107, 143, 143);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">trusted help, nearby</text>
+
+  
+  <rect x="360" y="52" width="280" height="160" rx="20" fill="#15314D" style="fill:rgb(21, 49, 77);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <path d="M440 164 C440 164 412 138 412 118 C412 102.536 424.536 90 440 90 C455.464 90 468 102.536 468 118 C468 138 440 164 440 164 Z" fill="#ffffff" stroke="none" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <circle cx="440" cy="116" r="13" fill="#15314D" style="fill:rgb(21, 49, 77);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <polyline points="433,116 438,122 448,110" fill="none" stroke="#C9A86A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(201, 168, 106);color:rgb(11, 11, 11);stroke-width:2.8px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <text x="482" y="122" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:32px;font-weight:600;text-anchor:start;dominant-baseline:auto">nearo</text>
+  <text x="483" y="142" style="fill:rgba(255, 255, 255, 0.65);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">trusted help, nearby</text>
+
+  
+  <text x="60" y="250" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">Stacked lockup</text>
+  <text x="310" y="250" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">Symbol only (app icon)</text>
+  <text x="510" y="250" style="fill:rgb(136, 136, 136);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">Single color</text>
+
+  
+  <rect x="40" y="262" width="200" height="140" rx="20" fill="#F7F3EC" style="fill:rgb(247, 243, 236);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <path d="M140 340 C140 340 112 314 112 294 C112 278.536 124.536 266 140 266 C155.464 266 168 278.536 168 294 C168 314 140 340 140 340 Z" fill="#0E4F4F" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="140" cy="292" r="13" fill="#F7F3EC" style="fill:rgb(247, 243, 236);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polyline points="133,292 138,298 148,286" fill="none" stroke="#C9A86A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(201, 168, 106);color:rgb(11, 11, 11);stroke-width:2.8px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <text x="140" y="360" text-anchor="middle" font-size="26" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:32px;font-weight:600;text-anchor:middle;dominant-baseline:auto">nearo</text>
+  <text x="140" y="378" text-anchor="middle" style="fill:rgb(107, 143, 143);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">trusted help, nearby</text>
+
+  
+  <rect x="290" y="262" width="140" height="140" rx="32" fill="#0E4F4F" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <path d="M360 370 C360 370 332 344 332 324 C332 308.536 344.536 296 360 296 C375.464 296 388 308.536 388 324 C388 344 360 370 360 370 Z" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="360" cy="322" r="14" fill="#0E4F4F" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polyline points="352,322 358,329 368,315" fill="none" stroke="#C9A86A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(201, 168, 106);color:rgb(11, 11, 11);stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  
+  <rect x="480" y="262" width="180" height="140" rx="20" fill="#ffffff" stroke="#E7E2D8" stroke-width="1" style="fill:rgb(255, 255, 255);stroke:rgb(231, 226, 216);color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <path d="M530 362 C530 362 506 338 506 320 C506 306.745 516.745 296 530 296 C543.255 296 554 306.745 554 320 C554 338 530 362 530 362 Z" fill="#0E4F4F" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="530" cy="318" r="11" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="530" cy="318" r="4" fill="#0E4F4F" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <text x="565" y="328" font-size="22" fill="#0E4F4F" style="fill:rgb(14, 79, 79);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Inter, sans-serif;font-size:32px;font-weight:600;text-anchor:start;dominant-baseline:auto">nearo</text>
+
+</svg>

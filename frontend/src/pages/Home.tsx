@@ -27,7 +27,7 @@ export default function Home() {
     return (
       <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-b from-brand-600 to-brand-800">
         <div className="text-center text-white">
-          <h1 className="text-4xl font-bold mb-2">NearSkill</h1>
+          <h1 className="text-4xl font-bold mb-2">Nearo</h1>
           <p className="text-brand-100 mb-8">Find verified local professionals for every need</p>
           <Link to="/login" className="block w-full bg-white text-brand-600 px-8 py-3 rounded-xl font-semibold mb-3">
             Sign In
